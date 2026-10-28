@@ -1,0 +1,29 @@
+{
+  "task_id": "missing-001",
+  "status": "needs_input",
+  "title": null,
+  "target_duration": null,
+  "scenes": [],
+  "per_scene_seconds": [],
+  "total_seconds": null,
+  "material_ids": [],
+  "missing_fields": [
+    "topic",
+    "audience",
+    "target_duration"
+  ],
+  "risks": [
+    "缺少关键输入，请补充后重新提交"
+  ],
+  "trace": [
+    {
+      "step": 1,
+      "action": "finish",
+      "args": {
+        "status": "needs_input"
+      },
+      "observation": "结束，状态 needs_input",
+      "rationale": "缺少关键输入信息，向用户请求补充而非强行生成"
+    }
+  ]
+}

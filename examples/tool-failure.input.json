@@ -1,0 +1,9 @@
+{
+  "task_id": "tool-failure-001",
+  "topic": "小影字幕功能",
+  "audience": "短视频新手创作者",
+  "platform": "抖音",
+  "target_duration": 30,
+  "style": "轻快",
+  "simulate_tool_failure": true
+}

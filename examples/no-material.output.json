@@ -1,0 +1,45 @@
+{
+  "task_id": "no-material-001",
+  "status": "failed_no_material",
+  "title": null,
+  "target_duration": 45,
+  "scenes": [],
+  "per_scene_seconds": [],
+  "total_seconds": null,
+  "material_ids": [],
+  "missing_fields": [],
+  "risks": [
+    "素材库中没有相关事实，为避免编造产品事实而终止生成"
+  ],
+  "trace": [
+    {
+      "step": 1,
+      "action": "search",
+      "args": {
+        "query": "量子计算云服务",
+        "is_rewrite": false
+      },
+      "observation": "未检索到相关素材",
+      "rationale": "先检索与主题相关的素材，确保脚本有事实依据"
+    },
+    {
+      "step": 2,
+      "action": "search",
+      "args": {
+        "query": "量子计算云服务 功能 亮点",
+        "is_rewrite": true
+      },
+      "observation": "未检索到相关素材",
+      "rationale": "首次检索无结果，改写查询（扩展同义描述）后再试一次"
+    },
+    {
+      "step": 3,
+      "action": "finish",
+      "args": {
+        "status": "failed_no_material"
+      },
+      "observation": "结束，状态 failed_no_material",
+      "rationale": "改写查询后仍无素材，为避免编造产品事实而终止"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "task_id": "normal-001",
+  "status": "success",
+  "title": "小影字幕功能｜抖音 轻快风短视频脚本",
+  "target_duration": 30,
+  "scenes": [
+    {
+      "shot": "展示小影 App「支持字幕自动生成」功能界面，配轻快风格字幕",
+      "narration": "小影 App支持支持字幕自动生成，小影出品，轻快呈现。",
+      "material_ids": [
+        "P01"
+      ]
+    },
+    {
+      "shot": "展示小影 App「内置 30 款可商用视频模板」功能界面，配轻快风格字幕",
+      "narration": "小影 App支持内置 30 款可商用视频模板，小影出品，轻快呈现。",
+      "material_ids": [
+        "P02"
+      ]
+    },
+    {
+      "shot": "展示小影 App「支持一键导出 1080P 高清视频」功能界面，配轻快风格字幕",
+      "narration": "小影 App支持支持一键导出 1080P 高清视频，小影出品，轻快呈现。",
+      "material_ids": [
+        "P03"
+      ]
+    }
+  ],
+  "per_scene_seconds": [
+    6,
+    7,
+    8
+  ],
+  "total_seconds": 21,
+  "material_ids": [
+    "P01",
+    "P02",
+    "P03"
+  ],
+  "missing_fields": [],
+  "risks": [
+    "时长为按语速（约5字/秒）的估算值，实际以成片为准",
+    "脚本仅引用素材库中的产品事实，未添加无依据的效果承诺"
+  ],
+  "trace": [
+    {
+      "step": 1,
+      "action": "search",
+      "args": {
+        "query": "小影字幕功能",
+        "is_rewrite": false
+      },
+      "observation": "命中 3 条素材: ['P01', 'P02', 'P03']",
+      "rationale": "先检索与主题相关的素材，确保脚本有事实依据"
+    },
+    {
+      "step": 2,
+      "action": "draft",
+      "args": {},
+      "observation": "已生成 3 个分镜的初稿",
+      "rationale": "素材充足，基于素材事实生成首版脚本"
+    },
+    {
+      "step": 3,
+      "action": "estimate",
+      "args": {},
+      "observation": "各分镜 [14, 15, 16] 秒，总时长 45 秒（目标 30 秒）",
+      "rationale": "估算当前脚本总时长，核对是否满足时长限制"
+    },
+    {
+      "step": 4,
+      "action": "revise",
+      "args": {},
+      "observation": "第 1 次压缩/修正完成，需重新估算与检查",
+      "rationale": "超出目标时长，压缩脚本后将重新估算"
+    },
+    {
+      "step": 5,
+      "action": "estimate",
+      "args": {},
+      "observation": "各分镜 [6, 7, 8] 秒，总时长 21 秒（目标 30 秒）",
+      "rationale": "估算当前脚本总时长，核对是否满足时长限制"
+    },
+    {
+      "step": 6,
+      "action": "check_rules",
+      "args": {},
+      "observation": "规则检查通过",
+      "rationale": "时长达标，进行品牌规则检查"
+    },
+    {
+      "step": 7,
+      "action": "finish",
+      "args": {
+        "status": "success"
+      },
+      "observation": "结束，状态 success",
+      "rationale": "时长与规则检查均通过，交付脚本"
+    }
+  ]
+}

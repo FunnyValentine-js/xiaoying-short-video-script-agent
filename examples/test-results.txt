@@ -1,0 +1,11 @@
+test_cli_invalid_json_exits_nonzero (test_main.AgentFlowTests.test_cli_invalid_json_exits_nonzero) ... ok
+test_missing_info_requests_input (test_main.AgentFlowTests.test_missing_info_requests_input) ... ok
+test_no_material_rewrite_then_fail (test_main.AgentFlowTests.test_no_material_rewrite_then_fail) ... ok
+test_normal_success_with_duration_fix (test_main.AgentFlowTests.test_normal_success_with_duration_fix) ... ok
+test_step_limit_returns_unfinished (test_main.AgentFlowTests.test_step_limit_returns_unfinished) ... ok
+test_tool_failure_retried_then_failed (test_main.AgentFlowTests.test_tool_failure_retried_then_failed) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.116s
+
+OK

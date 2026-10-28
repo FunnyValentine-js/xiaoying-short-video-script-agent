@@ -1,0 +1,26 @@
+{
+  "materials": [
+    {
+      "id": "P01",
+      "product": "小影 App",
+      "keywords": ["字幕", "剪辑", "小影", "视频"],
+      "facts": ["支持字幕自动生成"]
+    },
+    {
+      "id": "P02",
+      "product": "小影 App",
+      "keywords": ["模板", "剪辑", "小影", "成片"],
+      "facts": ["内置 30 款可商用视频模板"]
+    },
+    {
+      "id": "P03",
+      "product": "小影 App",
+      "keywords": ["导出", "分享", "小影", "高清"],
+      "facts": ["支持一键导出 1080P 高清视频"]
+    }
+  ],
+  "brand_rules": {
+    "forbidden_claims": ["效率提升", "行业第一", "100%"],
+    "required_keywords": ["小影"]
+  }
+}

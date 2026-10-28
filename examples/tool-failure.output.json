@@ -1,0 +1,45 @@
+{
+  "task_id": "tool-failure-001",
+  "status": "failed_tool",
+  "title": null,
+  "target_duration": 30,
+  "scenes": [],
+  "per_scene_seconds": [],
+  "total_seconds": null,
+  "material_ids": [],
+  "missing_fields": [],
+  "risks": [
+    "素材检索服务不可用，已重试一次仍失败"
+  ],
+  "trace": [
+    {
+      "step": 1,
+      "action": "search",
+      "args": {
+        "query": "小影字幕功能",
+        "is_rewrite": false
+      },
+      "observation": "工具错误: 素材检索服务不可用（模拟故障）",
+      "rationale": "先检索与主题相关的素材，确保脚本有事实依据"
+    },
+    {
+      "step": 2,
+      "action": "search",
+      "args": {
+        "query": "小影字幕功能",
+        "is_rewrite": false
+      },
+      "observation": "工具错误: 素材检索服务不可用（模拟故障）",
+      "rationale": "先检索与主题相关的素材，确保脚本有事实依据"
+    },
+    {
+      "step": 3,
+      "action": "finish",
+      "args": {
+        "status": "failed_tool"
+      },
+      "observation": "结束，状态 failed_tool",
+      "rationale": "素材检索工具连续失败，重试无效，明确报告失败"
+    }
+  ]
+}
